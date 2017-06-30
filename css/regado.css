@@ -1,0 +1,111 @@
+.calc-form
+{
+	margin : 0;
+}
+
+.title
+{
+	background-color : #005398;
+	font-family : Verdana;
+	width : 420px;
+	height : 50px; 
+	border-radius : 5px 5px 0px 0px; 
+	text-align : center;
+	font-weight: bold; 
+	font-size : 20px;
+	color : white;
+}
+
+.button
+{
+	background-color : #EEEEEE;
+	color: #01224a;
+	width : 420px;
+	padding : 15px; 
+	padding-left : 45px;
+}
+
+.center
+{
+	background-color : #EEEEEE;
+	color: #01224a;
+	font-family : Verdana;
+	width : 420px;
+	padding : 15px; 
+	padding-top : 0;
+}
+
+.fuel
+{
+	font-weight: bold;
+	text-align : center; 
+	padding-bottom : 10px;
+}
+
+.text
+{
+	font-weight: bold;
+}
+
+.date
+{
+	width : 70px;
+}
+
+.padding-top
+{
+	padding-top : 15px;
+}
+
+.stb
+{
+	width : 161px;
+}
+
+.submit
+{
+	background-color : #EEEEEE;
+	color: #01224a;
+	font-family : Verdana;
+	width : 420px;
+	text-align : center;
+}
+
+.form-submit
+{
+	width : 100px;
+	height : 30px;
+}
+
+.zero
+{
+	background-color : #EEEEEE; 
+	color: #01224a;
+	width : 420px; 
+	border-radius : 0px 0px 5px 5px;
+}
+
+.el
+{
+	text-align : center;
+}
+
+#dizel
+{
+	display : none;
+}
+
+#hibrid
+{
+	display : none;
+}
+
+#elektromos
+{
+	display : none;
+}
+
+.active
+{
+	background-color : red;
+}

@@ -24,7 +24,7 @@
 
 <form name='calculator' method='post' class='calc-form'>
 
-<input type='hidden' name='fuel' value='###fuel###'>
+<input type='hidden' name='fuel' id='fuel' value='###fuel###'>
 
 <!-- Benzin -->
 <table class='center' id='benzin'>

@@ -1,4 +1,4 @@
-<?
+<?php
 
 if (!isset($_POST['submitted']))
 {
@@ -10,5 +10,4 @@ else
 	$fuel = $_POST['fuel'];
 }
 
-str_replace = ('###fuel###', '$fuel', 'templates/form.tpl.php');
-?>
+$output = str_replace('###fuel###', $fuel, $output);

@@ -1,4 +1,4 @@
-<?
+<?php
 $options = '';
 $selected = $_POST['c_year'];
 
@@ -14,4 +14,3 @@ for($e=date("Y");$e>=1990;$e--)
 }
 
 $output = str_replace('###year-options###', $options, $output);
-?>

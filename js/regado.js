@@ -10,6 +10,8 @@ $(document).ready(function(){
 		$('#button_dizel').removeClass('active');
 		$('#button_hibrid').removeClass('active');
 		$('#button_elektromos').removeClass('active');
+
+		$('#fuel').val('benzin');
 	})
 	
 	$('#button_dizel').click(function(){
@@ -22,7 +24,8 @@ $(document).ready(function(){
 		$('#button_benzin').removeClass('active');
 		$('#button_hibrid').removeClass('active');
 		$('#button_elektromos').removeClass('active');
-		
+
+		$('#fuel').val('dizel');
 	})
 	
 	$('#button_hibrid').click(function(){	
@@ -35,6 +38,8 @@ $(document).ready(function(){
 		$('#button_benzin').removeClass('active');
 		$('#button_dizel').removeClass('active');
 		$('#button_elektromos').removeClass('active');
+
+		$('#fuel').val('hibrid');
 	})
 
 	$('#button_elektromos').click(function(){	
@@ -47,6 +52,8 @@ $(document).ready(function(){
 		$('#button_benzin').removeClass('active');
 		$('#button_hibrid').removeClass('active');
 		$('#button_dizel').removeClass('active');
+
+		$('#fuel').val('elektromos');
 	})
 
 	

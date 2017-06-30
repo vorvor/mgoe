@@ -1,4 +1,4 @@
-<?
+<?php
 $c_year = $_POST['c_year'];
 $c_month = $_POST['c_month'];
 
@@ -69,5 +69,3 @@ if($h == 1)
 {
 	$ve = $o;
 }
-
-?>

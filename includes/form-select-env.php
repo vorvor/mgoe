@@ -1,4 +1,4 @@
-<?
+<?php
 $env_classes = array('EURO1', 'EURO2', 'EURO3', 'EURO4', 'EURO5');
 
 $options = '';
@@ -20,5 +20,3 @@ foreach ($env_classes as $class)
 }
 
 $output = str_replace('###env-options###', $options, $output);
-
-?>

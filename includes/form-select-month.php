@@ -1,4 +1,4 @@
-<?
+<?php
 $options = '';
 $selected = $_POST['c_month'];
 
@@ -14,4 +14,3 @@ for($e=1;$e<=12;$e++)
 }
 
 $output = str_replace('###month-options###', $options, $output);
-?>

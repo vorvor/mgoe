@@ -1,4 +1,4 @@
-<?
+<?php
 $barrel_b_classes = array('<=1100', '1101 - 1400', '1401 - 1600', '1601 - 1800', '1801 - 2000', '2001 - 2500', '>=2501');
 
 $options = '';
@@ -20,5 +20,3 @@ foreach ($barrel_b_classes as $class)
 }
 
 $output = str_replace('###barrel-b-options###', $options, $output);
-
-?>
